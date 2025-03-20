@@ -1,5 +1,6 @@
-Class demo { 
-Public static void main[string args()]
+class demo { 
+public static void main(String[]args)
 {
 System.out.print(“welcome to Java”);
+}
 }
