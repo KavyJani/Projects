@@ -5,7 +5,7 @@ public class Demo {
         Scanner s1 = new Scanner(System.in);
         
         System.out.println("Enter a sentence:");
-        String input = scanner.nextLine();
+        String input = s1.nextLine();
         
         String[] words = input.split("\\s+");
         int capitalWordCount = 0;
