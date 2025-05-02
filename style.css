@@ -493,7 +493,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: red;
+        background: gainsboro;
         position: fixed;
         top: 0;
         right: -200px;
