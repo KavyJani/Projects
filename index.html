@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Flora's Portfolio   </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa6785d52c.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+               
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Certificates</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="ht">
+                <div class="blinking-text-container">
+                    <span class="blinking-text active" data-text="First">Data Analyst</span>
+                    <span class="blinking-text" data-text="Second">Buisness Analyst</span>
+                    <span class="blinking-text" data-text="Third">Marekting Analyst</span>
+                    <span class="blinking-text" data-text="Fourth">Project Management</span>                    
+                </div>
+                <h1>Hello, I am <span>Flora Jani</span></h1>
+            </div>
+        </div>
+    </div>
+    <!------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="c1">
+                    <img src='https://i.postimg.cc/WbB9c924/122.jpg' border='0' alt='122'/></a>
+                </div>
+                    <div class="c2">
+                        <h1 class="ST">About Me</h1>
+                        <p>I am a data-driven professional with a knack for transforming complex datasets into clear, actionable insights
+                           With hands-on expertise in SQL, Power BI, Tableau, Excel VBA, and Azure tools, I thrive on building visual 
+                           stories that drive smarter and strategic decisions.My background spans analytics, quality control, and Marketing
+                           intelligence across industries.I am passionate about process improvement, stakeholder collaboration and turning
+                           business into powerful dashboards, models and reports. Let's connect data to strategy with precision,purpose,
+                           and a creative spark. 
+                        </p>
+
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Expertise</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents at1" id="skills">
+                        <div class="logo">
+                            <img src="https://i.postimg.cc/sDGJDpX0/101.png" alt="101"/></a>
+                            <img src="https://i.postimg.cc/J72qLT1k/100.png" alt="100"/></a>
+                            <img src="https://i.postimg.cc/g29HwnLc/102.png" alt="102"/></a>
+                            <img src="https://i.postimg.cc/RZcQw4w7/103.jpg" alt="103"/></a>
+                            <img src="https://i.postimg.cc/pdCf1CGy/104.png" alt="104"/></a>
+                            <img src="https://i.postimg.cc/bvp0TWRK/106.png" alt="106"/></a>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Conestoga College,Canada</span>:Business Analytics</li>
+                            <li><span>Conestoga College,Canada</span>:Project Management</li>
+                            <li><span>Gujarat Technological University,India</span>:MBA - Marketing</li>
+                            <li><span>Courses</span>:Data Analysis, Business Intelligence, SQL & Database Management, Marketing Analytics, Project Management </li>
+                            <li><span>Concentration</span>:Customer Relationship Management, Data-Driven Decision Making, Strategic Marketing</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>●	Data Analysis & Reporting:</span>4+ years' experience in data cleaning, modelling, visualisation, and reporting using SQL, Power BI, Tableau, and Excel across manufacturing, banking, and e-commerce sectors.</li>
+                            <li><span>●	Business Intelligence:</span>Designed 15+ dashboards for campaign tracking, sales analysis, and customer segmentation, improving decision-making accuracy and stakeholder alignment by up to 30%.</li>
+                            <li><span>●	Process Improvement:</span>Increased production quality (15%), inventory accuracy (18%), and team productivity (12%) by optimizing workflows and using tools like JIRA and ERP systems at Toyoda Gosei.</li>
+                            <li><span>●	Stakeholder Collaboration:</span>Worked with cross-functional teams (tech, marketing, product) to drive 24% improvement in campaign engagement and 15% boost in client satisfaction. </li>
+                            <li><span>●	Customer Success & Retention:</span> Analyzed 10,000+ customer feedback entries, flagged high-risk accounts, and implemented strategies reducing churn by up to 19%.</li>
+                            <li><span>●	Project Leadership:</span>Successfully led marketing campaign analysis and credit card analysis projects, showcasing skills in SQL querying, Power BI dashboarding, and actionable insights generation. </li>
+                            <li><span>●	Certifications & Education:</span>Certified in Google Data Analytics, Tableau Desktop, Excel VBA, and Google Digital Marketing; completed Postgraduate studies in Project Management and Business Analytics. </li>
+                            <li><span>●	Technical Proficiency:</span>Skilled in Data Warehousing, ETL processes, MS Azure (Fabric, Synapse), CRM systems, advanced Excel automation, and business intelligence platforms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------services------------>
+<div id="service">
+    <div class="container">
+        <h1 class="ST">My Certificates</h1>
+        <div class="SL">
+            <div>
+                <i class="fa-brands fa-google"></i>
+                <h2>Google Data Analytics: </h2>
+                <p>Mastered data analysis processes, visualization,R programming & data cleaning through a capstone project.
+                </p>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/G7ZN33HVXOSZ">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin"></i>             
+                <h2>Excel: Macros and VBA: </h2>
+                <p>Gained expertise in automating tasks and enhancing data analysis capabilities using Macros and VBA in Excel. 
+                </p>                
+                <a href="https://www.linkedin.com/learning/certificates/de5180fa88135a39c5fab33e7d31cd3128e526bcaa91cd379ecb32caa59293ca">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin"></i>
+                <h2>Tableau Desktop Qualified Associate : </h2>
+                <p>Developed skills in data visualization, data connections, and data mapping to create insightful dashboards.
+                </p>                
+                <a href="https://www.linkedin.com/learning/certificates/0b43b36ec3754ea2f1edb778cae383bd78aa9e6275c7260a0a7907ded324ac45?trk=share_certificate%20#tableau.">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="ST">My Projects</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src='https://i.postimg.cc/s2r6PYy6/1332.jpg' border='0' alt='1332'/>
+                <div class="layer">
+                    <h3>Market Analysis:</h3>
+                    <p>●	Analyzed marketing campaign data using Microsoft Power BI to evaluate performance, ROI & consumer engagement.</p>
+                    <a href="#summary1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.postimg.cc/HL1jvkLx/1002.jpg" alt="1002"/></a>
+                <div class="layer">
+                    <h3>Perfomance Analysis (Capstone Project):</h3>
+                    <p>●	Leveraged SQL & Power BI to analyze 10K+ customer records, card utilization, acquisition costs & unpaid accounts.  </p>
+                    <a href="#summary2"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.postimg.cc/28J1vwRn/1004.jpg" alt="1004"/></a>
+                <div class="layer">
+                    <h3>Credit Card Analysis:</h3>
+                    <p>●	Provided support in sorting, packaging & distributing food to underserved communities, fostering teamwork, empathy, and leadership skills while contributing to social impact.</p>
+                    <a href="#summary3"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+<!---------Summary--------->
+<div id="summary1">
+    <div class="container">
+        <div class="row1">
+            <div class="LC1">
+                <h1 class="ST">Marketing Analysis On Netflix:</h1>
+                <img src="https://i.postimg.cc/fbgyHWSt/1212.jpg" alt="1212" onclick="enlargeImage(this)" class="clickable-image"/></a>
+                <img src="https://i.postimg.cc/KzkzCXt9/1213.jpg" alt="1213" onclick="enlargeImage(this)" class="clickable-image"/></a>
+                <img src="https://i.postimg.cc/rmBmkhJq/1214.jpg" alt="1214" onclick="enlargeImage(this)" class="clickable-image"/></a>
+            </div>
+            <div class="RC1">
+                <p><h2><u>Netflix Data (MS Excel):</u></h2> I utilized Excel to systematically structure and cleanse subscriber, revenue, and marketing spend data from Q1 2018 to Q2 2020. Applied formulas like =IFERROR(A2/B2, 0) to manage missing values and ensure error-free calculations across large datasets.</p>
+                <p> Data Summary:Between Q1 2018 and Q2 2020, subscriber growth and revenue growth trends varied across key regions: Asia-Pacific, EMEA, Latin America, and US & Canada. Asia-Pacific consistently led in subscriber and revenue growth percentages, demonstrating strong market penetration and lower customer acquisition costs (CAC).US & Canada experienced stable revenue growth with slightly fluctuating subscriber numbers, maintaining a balanced CAC. Overall, regions with higher subscriber growth generally achieved stronger revenue performance, with a visible correlation between efficient CAC management and profitability. Strategic focus on reducing CAC and optimizing regional marketing efforts is recommended to sustain and amplify growth.
+                    <br><h2><u>Recommendations:</u></h2>
+                    ●  Optimize CAC: Focus on reducing acquisition costs in the US & Canada using targeted digital marketing. <br>
+                    ●  Monetize Users Better: Increase ARPU (Average Revenue Per User) via premium offerings in Latin America. <br>
+                    ●  Invest in High-Growth Markets: Allocate more budget to Asia-Pacific given its strong revenue and subscriber momentum. <br>
+                    ●  Churn Reduction: Implement loyalty programs in EMEA to stabilize post-growth quarters.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="summary2">
+    <div class="container">
+        <div class="row1">
+            <div class="LC1">
+                <h1 class="ST">Perfomance Analysis:</h1>
+                <img src='https://i.postimg.cc/KvL1PTZV/IMG-8173.jpg' border='0' alt='IMG-8173'  class="image-toggle" id="toggleImg" onclick="toggleImage()"/>
+            </div>
+            <div class="RC1">
+                <p><h2><u>Perfomance Analysis:</u></h2> I cleaned raw data using Excel by removing duplicates, formatting numbers, and standardising fields. In Power BI, I imported the cleaned data, created relationships, and used DAX functions like SUM(), AVERAGE(), DIVIDE(), and CALCULATE() to compute Total Revenue, Total Spends, ROI, and Growth metrics. 
+                   Finally, I designed interactive dashboards with clustered charts, pie charts, and KPI cards to visualize regional and campaign performance. 
+                   Data Summary: The dashboard shows a total revenue of 42.54M and total spends of 25.69M, achieving an average ROI of 0.68. Among regions, Africa generated the highest revenue and spend, followed by Asia and North America. 
+                   Influencer Marketing emerged as the best-performing campaign with the highest ROI (1.10) and total ROI (137), whereas TV Commercials had the lowest ROI (0.45). Digital campaigns made up 62.5% of total campaigns, while traditional campaigns accounted for 37.5%. Overall, the total ROI across campaigns was 676.25. 
+                   <br><h2><u>Recommendations:</u></h2>
+                   ●Increase investment in Influencer Marketing and Social Media Ads to maximize ROI. <br>
+                   ●Reassess or reduce spending on TV Commercials and Email Marketing due to lower ROI performance. <br>
+                   ●Expand Digital campaigns, given their higher proportion and success rate compared to traditional campaigns. <br>
+                   ●Focus future regional strategies on Africa, Asia, and North America, where spend-to-revenue conversion is stronger. <br>
+                </p>   
+            </div>
+        </div>
+    </div>
+</div>
+<div id="summary3">
+    <div class="container">
+        <div class="row1">
+            <div class="LC1">
+                <h1 class="ST">Credit Card Analysis :</h1>
+                <img src="https://i.postimg.cc/Mp3hwkdQ/IMG-8217.jpg" alt="IMG-8217" onclick="enlargeImage(this)" class="clickable-image"/>
+                <img src="https://i.postimg.cc/0yyLh5dv/IMG-8218.jpg" alt="IMG-8218" onclick="enlargeImage(this)" class="clickable-image"/>
+                <img src="https://i.postimg.cc/zXjsdHhp/IMG-8219.jpg" alt="IMG-8219" onclick="enlargeImage(this)" class="clickable-image"/>                
+            </div>
+            <div class="RC1">
+                <p> <h2><u>Data Summary :</u></h2>  I conducted a comprehensive Credit Card Analysis project to uncover patterns in customer behavior, transaction performance, and delinquency. Using SQL, I cleaned and segmented data across card types, demographics, job profiles, and expenditure categories. I built interactive Power BI dashboards that visualized revenue, total interest, transaction count, and income by quarter, usage method, and customer segments. Key insights showed that Blue cards and businessmen drove the highest revenue, while retirees and low-income groups had elevated delinquency. These findings supported targeted strategy recommendations to reduce credit risk and enhance revenue.
+                    <br><h2><u>Recommendations:</u></h2>●Target High-Performing Segments: Focus marketing and rewards programs on Blue cardholders and businessmen, who contribute the highest revenue. <br>
+                    ●Mitigate Delinquency Risk: Implement stricter credit controls or tailored payment plans for retirees and low-income customers, who show higher delinquency. <br> 
+                    ●Optimize Usage Methods: Promote swipe transactions over online methods, as they generate the highest revenue. <br> 
+                    ●Segmented Credit Offers: Design personalized credit products for self-employed and graduate segments, who show strong income and usage potential.                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Contact Me---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="LC">
+                <h1 class="ST">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>flora.jani@outlook.com</p>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/florajani/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/14JOAlrtVt2KRWLlujhn7329ggVyPcSS8/view?usp=sharing" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="RC">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> kavy. Made <i class="fa-solid fa-heart"></i> for project</p>
+    </div>
+</div>
+<div id="imageOverlay" onclick="closeOverlay()">
+    <img id="overlayImg" src="" alt="Enlarged image">
+  </div>
+
+<script>
+    function enlargeImage(img) {
+      const overlay = document.getElementById("imageOverlay");
+      const overlayImg = document.getElementById("overlayImg");
+      overlayImg.src = img.src;
+      overlay.style.display = "flex";
+    }
+  
+    function closeOverlay() {
+      document.getElementById("imageOverlay").style.display = "none";
+    }
+</script>
+  
+<script>
+    function startBlinkingText(containerClass) {
+      const container = document.querySelector(`.${containerClass}`);
+      const textElements = container.querySelectorAll('.blinking-text');
+      let currentIndex = 0;
+  
+      function blink() {
+        textElements[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % textElements.length;
+        textElements[currentIndex].classList.add('active');
+        setTimeout(blink, 2000);
+      }
+  
+      blink();
+    }
+  
+    startBlinkingText('blinking-text-container');
+</script>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+                }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("at1")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("at1")
+        }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuBfqhmj-j-9u1E0XKQhEHv4jQZIxIoZHNsk7KOqlOgFH-nkMBVS3MeRwJiAFX_9qCLw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message has been sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<div class="overlay-bg" id="overlayBg" onclick="toggleImage()"></div>
+
+<script>
+    let isActive = false;
+
+    function toggleImage() {
+      const img = document.getElementById("toggleImg");
+      const bg = document.getElementById("overlayBg");
+
+      isActive = !isActive;
+
+      if (isActive) {
+        img.classList.add("image-active");
+        bg.classList.add("active");
+      } else {
+        img.classList.remove("image-active");
+        bg.classList.remove("active");
+      }
+    }
+</script>
+</body> 
+</html>
