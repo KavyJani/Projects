@@ -484,9 +484,11 @@ nav .fas{
     .ht{
         margin-top: 100%;
         font-size: 16px;
+        color: gainsboro
     }
     .ht h1{
         font-size: 30px;
+        color: gainsboro
     }
     nav .fas{
         display: block;
