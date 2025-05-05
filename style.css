@@ -111,6 +111,9 @@ nav ul li a:hover::after{
 .c2{
     flex-basis: 60%;
 }
+.c2 p{
+    margin-top: 22px;
+}
 .ST{
     font-size: 40px;
     font-weight: 600;
