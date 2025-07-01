@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .blinking-image.active {
+            opacity: 1 !important;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="flex items-center space-x-4">
+            <img src="C:/Users/acer/Desktop/logos/logo1.png" alt="" class="flex items-center justify-center">
+        <div class="flex space-x-6 text-red-800 font-medium text-sm">
+            <div class="flex space-x-6 text-red-900 font-medium relative">
+                    <div class="relative group dropdown-parent">
+                        <button class="hover:text-red-600">About▾</button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">About Us</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Vision & Mission</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group dropdown-parent">
+                        <button class="hover:text-red-600">Admissions▾</button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Programs</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Apply Now</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group dropdown-parent">
+                        <button class="hover:text-red-600">Academics▾</button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Departments</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Faculty</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="relative group dropdown-parent">
+                <button class="hover:text-red-600">Events ▾</button>
+                 <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Past Events</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">TEDxSOU</a>
+                        </div>
+            </div>
+            <div class="relative group">
+                <button class="hover:text-red-600" onclick="location.href='file:///C:/Users/acer/Desktop/TAILWIND%20css/2/gallery.html'">Gallery</button>
+            </div>
+            <div class="relative group dropdown-parent">
+                <button class="hover:text-red-600">Placements▾</button>
+                 <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Preview</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Alumini</a>
+                        </div>
+            </div>
+            <div class="relative group dropdown-parent">
+                <button class="hover:text-red-600">Student corner ▾</button>
+                 <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Syllabus</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Online Video Lectures</a>
+                        </div>
+            </div>
+            <div class="relative group dropdown-parent">
+                <button class="hover:text-red-600">Approvals▾</button>
+                 <div class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible transition-opacity duration-500 dropdown-menu z-10">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">UGC</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">NBA</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">LOA</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100">EOA</a>
+                        </div>
+            </div>
+            <div class="relative group">
+                <button class="hover:text-red-600">Contact</button>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <div class="relative w-full h-screen blinking-image-container overflow-hidden m-2">
+        <img src="C:/Users/acer/Desktop/logos/logo4.png" class="absolute top-0 left-0 w-full h-full object-cover opacity-100 transition-opacity duration-[5ms] ease-in-out blinking-image " alt="Image 1">
+        <img src="C:/Users/acer/Desktop/logos/logo5.png" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-[5ms] ease-in-out blinking-image "alt="Image 2">
+        <img src="C:/Users/acer/Desktop/logos/logo6.png" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-[5ms] ease-in-out blinking-image " alt="Image 3">
+        <img src="C:/Users/acer/Desktop/logos/logo7.png" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-[5ms] ease-in-out blinking-image " alt="Image 4">
+        <img src="C:/Users/acer/Desktop/logos/logo8.png" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-[5ms] ease-in-out blinking-image " alt="Image 5">
+    
+
+    </div>
+    <div class="bg-[#880000] flex justify-center gap-8 py-8">
+
+  <button class="bg-[#E9F8E5] text-green-900 flex items-center gap-2 py-2 px-6 rounded-full shadow-md hover:scale-105 transition" onclick="location.href='https://virtualtour.silveroakuni.ac.in/'">
+    <span class="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center">
+      <span class="w-2.5 h-2.5 bg-green-900 rounded-full"></span>
+    </span>
+    360° VIRTUAL CAMPUS TOUR
+  </button>
+
+
+  <button class="bg-[#E9F8E5] text-green-900 flex items-center gap-2 " onclick="location.href='https://exploreyourcareer.silveroakuni.ac.in/Register'">
+    <span class="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center">
+      <span class="w-2.5 h-2.5 bg-green-900 rounded-full"></span>
+    </span>
+    EXPLORE YOUR CAREER
+  </button>
+</div>
+
+    <div class="flex flex-col md:flex-row items-start md:items-center space-y-6 md:space-y-0 md:space-x-8 max-w-6xl mx-auto">
+        
+        <div class="relative w-full md:w-1/2 m-10">
+            <img src="C:/Users/acer/Desktop/logos/logo2.png" alt="" class="rounded shadow-lg w-full h-auto" onclick="location.href='https://www.youtube.com/watch?v=y80iD-tF6qc&embeds_referring_euri=https%3A%2F%2Fsilveroakuni.ac.in%2F'">
+        </div>
+
+        <div class="md:w-1/2 space-y-4 text-justify">
+            <p class="text-gray-800 text-sm leading-relaxed">
+                <strong>Silver Oak University (SOU)</strong> is premier private university carrying forward the legacy of Silver Oak Group of Institutes.
+            </p>
+            <p class="text-gray-800 text-sm leading-relaxed">
+                As a reflection to its motto,“Gyanam Param Bhushanam” meaning Knowledge is the highest virtue, SOU delivers engaging learning experience through futuristic curriculum, advanced technological interface, eminent faculty, industry academia bonding, career planning and counseling and ample career opportunities.
+            </p>
+            <a href="https://silveroakuni.ac.in/about" class="inline-flex items-center bg-red-800 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-red-700 transition">
+                Read More...
+            </a>
+        </div>
+    </div>
+<div class="flex flex-wrap justify-center gap-10 bg-gray-100 p-10">
+  <div class="bg-white border rounded shadow-md w-96">
+    <div class="bg-green-700 text-white text-center font-bold text-xl py-4">Illuminate: 2.0</div>
+    <table class="w-full text-base text-gray-800">
+      <tbody>
+        <tr class="border-t">
+          <td class="px-6 py-4">Industrial Design/ Design Patent</td>
+          <td class="px-6 py-4 text-right">103</td>
+        </tr>
+        <tr class="border-t">
+          <td class="px-6 py-4">Product Patent</td>
+          <td class="px-6 py-4 text-right">4</td>
+        </tr>
+        <tr class="border-t">
+          <td class="px-6 py-4">Copyright</td>
+          <td class="px-6 py-4 text-right">5</td>
+        </tr>
+        <tr class="border-t font-semibold">
+          <td class="px-6 py-4">Total IPR</td>
+          <td class="px-6 py-4 text-right">112</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="bg-white border rounded shadow-md w-96">
+    <div class="bg-green-700 text-white text-center font-bold text-xl py-4">Illuminate: 1.0</div>
+    <table class="w-full text-base text-gray-800">
+      <tbody>
+        <tr class="border-t">
+          <td class="px-6 py-4">Industrial Design/ Design Patent</td>
+          <td class="px-6 py-4 text-right">81</td>
+        </tr>
+        <tr class="border-t">
+          <td class="px-6 py-4">Product Patent</td>
+          <td class="px-6 py-4 text-right">0</td>
+        </tr>
+        <tr class="border-t">
+          <td class="px-6 py-4">Copyright</td>
+          <td class="px-6 py-4 text-right">0</td>
+        </tr>
+        <tr class="border-t font-semibold">
+          <td class="px-6 py-4">Total IPR</td>
+          <td class="px-6 py-4 text-right">81</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="bg-[#880000] flex justify-center py-20">
+     <div class="flex justify-center gap-20 text-center">
+    <div>
+      <div class="text-5xl font-bold text-white px-20">90%</div>
+      <div class="mt-2 font-semibold text-white">Placements</div>
+    </div>
+    <div>
+      <div class="text-5xl font-bold text-white px-20">500+</div>
+      <div class="mt-2 font-semibold text-white">Recruitment Companies</div>
+    </div>
+    <div>
+      <div class="text-5xl font-bold text-white px-20">150+</div>
+      <div class="mt-2 font-semibold text-white">Research Publications</div>
+    </div>
+  </div>
+</div>    
+<footer class="bg-gray-100 text-sm text-gray-800">
+  <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
+    
+    <div>
+      <h4 class="font-bold text-lg underline underline-offset-4 text-[#7c2d2d] mb-2">SILVER OAK UNIVERSITY</h4>
+      <ul class="space-y-1">
+        <li>About SOU</li>
+        <li>Mission & Vision</li>
+        <li>MOUs</li>
+        <li>Testimonials</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h4 class="font-bold text-lg underline underline-offset-4 text-[#7c2d2d] mb-2">LEADERSHIP</h4>
+      <ul class="space-y-1">
+        <li>Management</li>
+        <li>Provost</li>
+        <li>Registrar</li>
+        <li>Governing Body</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h4 class="font-bold text-lg underline underline-offset-4 text-[#7c2d2d] mb-2">PLACEMENT</h4>
+      <ul class="space-y-1 mb-4">
+        <li>Overview of Placement</li>
+        <li>Testimonials</li>
+      </ul>
+      <h4 class="font-bold text-lg underline underline-offset-4 text-[#7c2d2d] mb-2">ACHIEVEMENTS</h4>
+      <ul class="space-y-1">
+        <li>Grants</li>
+        <li>Rankings</li>
+        <li>Students Achievements</li>
+        <li>Faculty Recognition</li>
+        <li>Awards</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h4 class="font-bold text-lg underline underline-offset-4 text-[#7c2d2d] mb-2">STUDENT FACILITIES</h4>
+      <ul class="space-y-1">
+        <li>Accommodation</li>
+        <li>Laboratories</li>
+        <li>E-Library</li>
+        <li>Incubation Center</li>
+        <li>Student Clubs</li>
+        <li>IEEE Student Branch</li>
+        <li>Health Care Services</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="bg-white border-t border-gray-300">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center text-xs text-gray-700">
+      <p>All Rights Reserved. ©️ <span class="text-[#7c2d2d] font-semibold">SILVEROAK CAMPUS AND RESEARCH FOUNDATION</span></p>
+      <div class="flex space-x-4 mt-2 md:mt-0 text-xl">
+        <a href="#" class="text-blue-800 hover:opacity-75"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-black hover:opacity-75"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="text-pink-600 hover:opacity-75"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-blue-600 hover:opacity-75"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-red-600 hover:opacity-75"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+     <script>
+        function startBlinkingImages(containerClass) {
+            const container = document.querySelector(`.${containerClass}`);
+            const imageElements = container.querySelectorAll('.blinking-image');
+            let currentIndex = 0;
+
+            function blink() {
+                imageElements[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % imageElements.length;
+                imageElements[currentIndex].classList.add('active');
+                setTimeout(blink, 2000);
+            }
+
+            imageElements[currentIndex].classList.add('active');
+            setTimeout(blink, 2000);
+        }
+
+        startBlinkingImages('blinking-image-container');
+    </script>
+ <script>
+        const dropdownParents = document.querySelectorAll('.dropdown-parent');
+
+        dropdownParents.forEach(parent => {
+            const dropdownMenu = parent.querySelector('.dropdown-menu');
+            let hideTimeout;
+
+            parent.addEventListener('mouseenter', () => {
+                clearTimeout(hideTimeout);
+                dropdownMenu.classList.remove('opacity-0', 'invisible');
+                dropdownMenu.classList.add('opacity-100', 'visible');
+            });
+
+            parent.addEventListener('mouseleave', () => {
+                hideTimeout = setTimeout(() => {
+                    dropdownMenu.classList.remove('opacity-100', 'visible');
+                    dropdownMenu.classList.add('opacity-0', 'invisible');
+                }, 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>
